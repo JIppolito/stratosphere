@@ -8,9 +8,9 @@ from troposphere import Parameter, Ref, Template
 from troposphere.autoscaling import LaunchConfiguration
 import yaml
 
-from stratosphere.base_autoscalinggroup import BaseAsg
-from stratosphere.base_loadbalancer import BaseELB
-from stratosphere.base_dns import BaseDNS
+from stratosphere.autoscalinggroup import BaseAsg
+from stratosphere.loadbalancer import BaseELB
+from stratosphere.dns import BaseDNS
 
 '''
 How to use this file
